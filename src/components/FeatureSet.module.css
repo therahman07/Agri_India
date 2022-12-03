@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    max-width: 30vw;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    flex-direction: column;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 30vh;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 25px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover {
+    cursor: pointer;
+}
+
+.child {
+    display: flex;
+    gap: 70px;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
